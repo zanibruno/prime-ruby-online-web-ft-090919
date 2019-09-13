@@ -4,7 +4,7 @@ def prime?(num)
  else
    collection = (2..num-1).to_a
    collection.any? do |numero|
-     if numero % num == 0 && numero % num == 1
+     if numero % num == 0
        true
      else 
        false
