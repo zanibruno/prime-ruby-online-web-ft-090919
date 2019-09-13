@@ -3,7 +3,7 @@ def prime?(num)
    false
  else
    collection = (2..num-1).to_a
-   collection.any? do |numero|
+   collection.none? do |numero|
      if numero % num == 0
        true
      else 
